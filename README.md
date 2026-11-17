@@ -12,7 +12,7 @@ A kinematic particle model of the dark globule Barnard 68 colliding with a small
 
 ## Requirements
 
-Python 3.10+, NumPy ≥ 2.0, SciPy ≥ 1.10, Matplotlib, contourpy, Pillow, Jupyter, h5py is optional and only needed for the ParaView export.
+Python 3.10+, NumPy ≥ 2.0, SciPy ≥ 1.10, Matplotlib, contourpy, Pillow, Jupyter. h5py is optional and only needed for the ParaView export.
 
 ```bash
 pip install numpy scipy matplotlib contourpy pillow h5py jupyter
@@ -26,8 +26,5 @@ jupyter notebook barnard68_morphokinematics_paper.ipynb
 
 ## Output
 
-- `b68_evolution.gif`: animation of the extinction and the velocity centroid
-- - `b68_snapshots/`: HDF5 snapshots plus `b68_evolution.xdmf`, which you can open in ParaView (Xdmf3 reader) as a time series
-- `b68_snapshots/`: HDF5 snapshots plus `b68_evolution.xdmf`, which you can open in ParaView (Xdmf3 reader) as a time series
 - `b68_evolution.gif`: animation of the extinction and the velocity centroid
 - `b68_snapshots/`: HDF5 snapshots plus `b68_evolution.xdmf`, which you can open in ParaView (Xdmf3 reader) as a time series
